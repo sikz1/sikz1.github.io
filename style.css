@@ -1,0 +1,22 @@
+html,
+body {
+  font-family: Nunito, sans-serif;
+  font-size: 14px;
+  padding: 1rem;
+}
+a {
+  text-decoration: underline;
+  color: #77a;
+}
+.p-0 {
+  padding: 0;
+}
+.pt-3 {
+  padding-top: 3rem;
+}
+.main {
+  width: 60%;
+  margin: 6rem auto;
+  text-align: center;
+  font-size: 1.6rem;
+}

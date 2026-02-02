@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: Nunito, sans-serif;
+  font-family: Titillium, Nunito, sans-serif;
   font-size: 14px;
   padding: 1rem;
 }
@@ -14,10 +14,20 @@ a {
 .p-0 {
   padding: 0;
 }
+.primary-color {
+  color: #a50061;
+}
+.secondary-color {
+  color: #4b4b4b;
+}
 .main {
   margin: 15% 25%;
   text-align: center;
   font-size: 1.6rem;
+}
+.privacy {
+  margin: 15%;
+  font-size: 1.4rem;
 }
 .footer-left {
   text-align: left;

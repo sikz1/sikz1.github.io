@@ -8,6 +8,18 @@ a {
   text-decoration: underline;
   color: #77a;
 }
+.social-links {
+  font-size: 1.4rem;
+  color: #4b4b4b;
+  text-align: center;
+  padding: 1rem;
+}
+.social-links i {
+  margin: 0 1rem;
+}
+.social-links a {
+  color: #4b4b4b;
+}
 .mb-2 {
   margin-bottom: 2rem;
 }

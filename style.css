@@ -1,0 +1,49 @@
+html,
+body {
+  font-family: Titillium, Nunito, sans-serif;
+  font-size: 14px;
+  padding: 1rem;
+}
+a {
+  text-decoration: underline;
+  color: #77a;
+}
+.mb-2 {
+  margin-bottom: 2rem;
+}
+.p-0 {
+  padding: 0;
+}
+.primary-color {
+  color: #a50061;
+}
+.secondary-color {
+  color: #4b4b4b;
+}
+.main {
+  margin: 15% 25%;
+  text-align: center;
+  font-size: 1.6rem;
+}
+.privacy {
+  margin: 15%;
+  font-size: 1.4rem;
+}
+.footer-left {
+  text-align: left;
+}
+.footer-right {
+  text-align: right;
+}
+@media (max-width: 767px) {
+  .main {
+    width: 75%;
+    margin: 3rem auto;
+  }
+  .footer-left {
+    text-align: center;
+  }
+  .footer-right {
+    text-align: center;
+  }
+}

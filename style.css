@@ -8,15 +8,32 @@ a {
   text-decoration: underline;
   color: #77a;
 }
+.mb-2 {
+  margin-bottom: 2rem;
+}
 .p-0 {
   padding: 0;
 }
-.pt-3 {
-  padding-top: 3rem;
-}
 .main {
-  width: 60%;
-  margin: 6rem auto;
+  margin: 15% 25%;
   text-align: center;
   font-size: 1.6rem;
+}
+.footer-left {
+  text-align: left;
+}
+.footer-right {
+  text-align: right;
+}
+@media (max-width: 767px) {
+  .main {
+    width: 75%;
+    margin: 3rem auto;
+  }
+  .footer-left {
+    text-align: center;
+  }
+  .footer-right {
+    text-align: center;
+  }
 }

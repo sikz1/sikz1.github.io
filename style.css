@@ -1,23 +1,46 @@
+* {
+  box-sizing: border-box;
+}
 html,
 body {
+  box-sizing: border-box;
   font-family: Titillium, Nunito, sans-serif;
   font-size: 14px;
-  padding: 1rem;
+  padding: 0;
+  margin: 0;
+  height: 100%;
 }
 a {
   text-decoration: underline;
   color: #77a;
 }
+.main-wrapper {
+  box-sizing: border-box;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.menu-container {
+  border-bottom: 2px solid #a50061;
+  padding: 1rem;
+}
+.message {
+  padding: 25% 0;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
 .social-links {
   font-size: 1.4rem;
   color: #4b4b4b;
   text-align: center;
-  padding: 1rem;
+  margin-bottom: 2rem;
 }
 .social-links i {
-  margin: 0 1rem;
+  margin: 1rem auto;
 }
 .social-links a {
+  margin: 0 1rem;
   color: #4b4b4b;
 }
 .mb-2 {
@@ -33,13 +56,26 @@ a {
   color: #4b4b4b;
 }
 .main {
-  margin: 15% 25%;
+  /*margin: 15% 25%;*/
   text-align: center;
   font-size: 1.6rem;
 }
+.main-body {
+  padding: 1rem;
+  flex-grow: 1;
+}
 .privacy {
-  margin: 15%;
+  padding: 0;
+  margin: 5% 10%;
   font-size: 1.4rem;
+}
+.footer {
+  border-top: 1px solid #4b4b4b;
+  background-color: #eaeaea;
+  color: #4b4b4b;
+  padding: 20px;
+  flex-grow: 0;
+  flex-shrink: 0;
 }
 .footer-left {
   text-align: left;
@@ -51,9 +87,9 @@ a {
   .privacy {
     font-size: 1.2rem;
     padding: 0;
-    margin: 0;
+    margin: 5%;
   }
-  .main {
+  .message {
     width: 75%;
     margin: 3rem auto;
   }

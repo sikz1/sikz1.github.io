@@ -22,7 +22,7 @@ a {
 }
 .menu-container {
   border-bottom: 2px solid #a50061;
-  padding: 1rem;
+  padding: 1rem 1rem 1.6rem 1rem;
 }
 .message {
   padding: 25% 0;
